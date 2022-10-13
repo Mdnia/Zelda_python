@@ -77,6 +77,4 @@ class UI:
         self.show_bar(player.energy, player.stats['energy'], self.energy_bar_rect, ENERGY_COLOR)
         self.show_exp(player.exp)
         self.weapon_overlay(player.weapon_index, not player.can_switch_weapon)
-        #self.selection_box(80, 635, player.can_switch_weapon)
         self.magic_overlay(player.magic_index, not player.can_switch_magic)
-        #self.selection_box(80, 635, player.can_switch_magic)
